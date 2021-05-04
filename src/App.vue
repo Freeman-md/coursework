@@ -1,28 +1,57 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <v-toolbar dense class="primary">
+      <v-toolbar-title><router-link id="title" :to="{name: 'lessons'}">Vue Lessons</router-link></v-toolbar-title>
+
+      <v-spacer></v-spacer>
+
+      <router-link id="shoppingCart" :to="{name: 'cart'}">
+        <v-btn v-if="$store.getters.cartCount > 0"  icon id="cartButton">
+          <v-icon small color="black darken-2">fa fa-shopping-cart</v-icon>
+          <span id="cartCount">{{$store.getters.cartCount}}</span>
+        </v-btn>
+      </router-link>
+    </v-toolbar>
+
+    <v-main>
+      <router-view></router-view>
+    </v-main>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  created() {
+    this.$vuetify.theme.dark = true;
   }
-}
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+  * {
+    font-family: Roboto, sans-serif;
+  }
+  #title {
+    font-family: "Curlz MT";
+    color: black;
+    text-decoration: none;
+  }
+  #shoppingCart {
+    text-decoration: none;
+  }
+  #cartButton {
+    position: relative;
+  }
+  #cartCount {
+    position: absolute;
+    top: -5px;
+    right: 7px;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-size: 10px;
+    border-radius: 50%;
+  }
 </style>

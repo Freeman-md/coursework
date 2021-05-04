@@ -1,74 +1,73 @@
 {
-    "data": [
-        {
-            "Subject": "Mathematics",
-            "Location": "London",
-            "Price": 200,
-            "Spaces": 5,
-            "Image": "./assets"
+    "data": [{
+            "subject": "Mathematics",
+            "location": "London",
+            "price": 5000,
+            "spaces": 5,
+            "image": "fas fa-calculator"
         },
         {
-            "Subject": "English Language",
-            "Location": "Texas",
-            "Price": 300,
-            "Spaces": 7,
-            "Image": "./assets"
+            "subject": "English Language",
+            "location": "Texas",
+            "price": 4500,
+            "spaces": 7,
+            "image": "fas fa-book"
         },
         {
-            "Subject": "Computer Science",
-            "Location": "Texas",
-            "Price": 250,
-            "Spaces": 6,
-            "Image": "./assets"
+            "subject": "Computer Science",
+            "location": "Texas",
+            "price": 950,
+            "spaces": 6,
+            "image": "fab fa-internet-explorer"
         },
         {
-            "Subject": "Physics",
-            "Location": "London",
-            "Price": 150,
-            "Spaces": 5,
-            "Image": "./assets"
+            "subject": "Physics",
+            "location": "London",
+            "price": 750,
+            "spaces": 5,
+            "image": "fas fa-chalkboard-teacher"
         },
         {
-            "Subject": "Biology",
-            "Location": "New York",
-            "Price": 300,
-            "Spaces": 8,
-            "Image": "./assets"
+            "subject": "Biology",
+            "location": "New York",
+            "price": 800,
+            "spaces": 8,
+            "image": "fas fa-splotch"
         },
         {
-            "Subject": "Economics",
-            "Location": "Florida",
-            "Price": 350,
-            "Spaces": 5,
-            "Image": "./assets"
+            "subject": "Economics",
+            "location": "Manchester",
+            "price": 3500,
+            "spaces": 5,
+            "image": "fas fa-file-invoice"
         },
         {
-            "Subject": "Accounting",
-            "Location": "Maryland",
-            "Price": 100,
-            "Spaces": 9,
-            "Image": "./assets"
+            "subject": "Accounting",
+            "location": "Maryland",
+            "price": 1000,
+            "spaces": 9,
+            "image": "fas fa-money-check"
         },
         {
-            "Subject": "Marketing",
-            "Location": "New York",
-            "Price": 100,
-            "Spaces": 5,
-            "Image": "./assets"
+            "subject": "Marketing",
+            "location": "New York",
+            "price": 10000,
+            "spaces": 5,
+            "image": "fas fa-shopping-basket"
         },
         {
-            "Subject": "Geography",
-            "Location": "Maryland",
-            "Price": 150,
-            "Spaces": 6,
-            "Image": "./assets"
+            "subject": "Geography",
+            "location": "Maryland",
+            "price": 1500,
+            "spaces": 6,
+            "image": "fas fa-globe-europe"
         },
         {
-            "Subject": "General Studies",
-            "Location": "Florida",
-            "Price": 200,
-            "Spaces": 6,
-            "Image": "./assets"
+            "subject": "General Studies",
+            "location": "Florida",
+            "price": 2000,
+            "spaces": 6,
+            "image": "fas fa-layer-group"
         }
     ]
 }
